@@ -1,0 +1,153 @@
+#title{
+    font-size: 60px;
+    color: rgb(7, 110, 179);
+    font-weight: bold;
+    margin: auto;
+    width: 16%;
+margin-bottom: 20px;
+}
+
+#mobile{
+
+    background: radial-gradient(circle at 10% 20%, rgb(129, 224, 230) 0%, rgb(103, 151, 219) 100.7%);
+    border: 2px solid white;
+    border-radius: 30px;
+
+    max-height: 1000px;
+  
+    height: 1000px;
+    max-width: 500px;
+    margin: auto;
+    width: 500px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: rgb(16, 16, 105);
+    color: white;
+}
+
+div#tempw{
+  width: 300px;
+  margin: auto;
+  
+
+}
+#weather-img{
+    width: 220px;
+    margin: 0 auto;
+    display: block;
+    
+}
+#temp{
+    font-size: 44px;
+    display: inline;
+    padding-left: 20px;
+    margin-left: 10%;
+}
+#weather{
+    margin-left: 8px;
+    font-size: 44px;
+    display: inline;
+}
+#date{
+    margin-left: 200px;
+    font-size: 22px;
+    display: inline;
+    margin-top: 6px;
+    
+}
+#location{
+    font-size: 24px;
+    margin: 0 0 0 10px;
+}
+#parent-container {
+    padding-left: 0;
+    height: 100%;
+    margin-top: 140px;
+    
+  }
+  #forecast-list{
+    height: 400px;
+    margin-top: 20px;
+  }
+  #listIcon{
+    
+    position: absolute;
+    top: 20px;
+    left: 24px;
+
+    
+
+  }
+  .days{
+    position: absolute;
+    /* top: 4px; */
+    left: 110px;
+    font-size: 30px;
+    
+    /* position: relative;
+    left: 20%; */
+  }
+ /* .locIcon{
+    margin-left: 10px;
+    margin-top: 4px;
+    
+    padding-top: 18px;
+ } */
+
+ .loc{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+ }
+
+
+  
+  .listdate{
+    position: absolute;
+    top: 20px;
+    right: 90px;
+    font-weight: bold;
+    font-size: 20px;
+    
+    /* position: relative;
+    left: 20%; */
+  }
+  .cdiv{
+    position: relative;
+    height :120px;
+    border-bottom : 1px solid white;
+    width : 500px;
+    margin-bottom: 20px;
+  }
+/* 
+  #overlay{
+    height: 100%;
+    width: 100%;
+    
+    
+    border-radius: 30px;
+    
+  } */
+
+  #mintemp{
+    position: absolute;
+    top: 26px;
+    right: 130px;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+  #maxtemp{
+    position: absolute;
+    top: 26px;
+    right: 20px;
+    font-weight: bold;
+    font-size: 16px;
+
+  }
+
+  
